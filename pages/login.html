@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/mediaQuery.css" />
+    <link rel="stylesheet" href="/css/form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="">ByDizeid</a>
+      </div>
+      <nav>
+        <ol class="header__menu">
+          <li>
+            <a class="menu__btn" href="../index.html#aboutMe">Nosotros</a>
+          </li>
+          <li>
+            <a class="menu__btn" href="../index.html#service">Servicios</a>
+          </li>
+          <li>
+            <a class="menu__btn" href="../index.html#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="menu__btn" href="../index.html#contact">Contacto</a>
+          </li>
+          <li>
+            <a class="menu__btn--login" href="register.html">Register</a>
+          </li>
+        </ol>
+      </nav>
+      <div class="header__button">
+        <input type="checkbox" id="menu" />
+        <label for="menu"> ☰ </label>
+        <ul>
+          <li>
+            <a class="menu__btn" href="../index.html#aboutMe">Nosotros</a>
+          </li>
+          <li>
+            <a class="menu__btn" href="../index.html#service">Servicios</a>
+          </li>
+          <li>
+            <a class="menu__btn" href="../index.html#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="menu__btn" href="../index.html#contact">Contacto</a>
+          </li>
+          <li>
+            <a class="menu__btn--login" href="register.html">Register</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="container">
+      <section class="form__container">
+        <h1 class="title">Login</h1>
+        <form action="" class="form">
+          <label for="correo">Correo:</label>
+          <input
+            type="email"
+            name=""
+            id="correo"
+            placeholder="Ingrese su email"
+            required
+          />
+
+          <label for="contraseña">Contraseña:</label>
+          <input
+            type="password"
+            name=""
+            id="contraseña"
+            placeholder="Ingrese su contraseña"
+            required
+          />
+
+          <div class="form__button">
+            <button class="btn" type="submit">Login</button>
+            <a href="/" class="btn">Home</a>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

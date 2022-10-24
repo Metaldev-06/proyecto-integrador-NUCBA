@@ -33,6 +33,12 @@
     .header__button {
         display: block;
     }
+    .contact__map {
+        max-width: 100%;
+    }
+    .contact__form {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 480px) {
